@@ -1,0 +1,19 @@
+
+
+
+
+server:
+  host: localhost
+  port: 8000
+
+database:
+  type: sqlite
+  name: data/db.sqlite
+
+logging:
+  level: DEBUG
+  file: logs/app.log
+
+features:
+  enable_feature_x: true
+  enable_feature_y: false
